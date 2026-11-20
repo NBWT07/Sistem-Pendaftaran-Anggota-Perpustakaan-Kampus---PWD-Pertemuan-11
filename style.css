@@ -1,0 +1,145 @@
+/* NIM : 2500302054
+   Nama : Naufal Basyirul Wafir Thoriq
+   Pertemuan 11 */
+
+/* PENGATURAN DASAR */
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f4f0;
+    color: #333333;
+    margin: 30px;
+}
+
+/* JUDUL HALAMAN */
+h1, h2 {
+    color: #245c42;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+/* FORM PENDAFTARAN */
+form {
+    width: 450px;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #b8d5c2;
+    border-radius: 10px;
+}
+
+/* LABEL */
+label {
+    color: #245c42;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* INPUT, SELECT, DAN TEXTAREA */
+input, select, textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #b8c9bd;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+/* TOMBOL */
+button {
+    background-color: #28784f;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 20px;
+    border: 1px solid #28784f;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* PESAN */
+p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* TABEL DATA ANGGOTA */
+table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid #b8c9bd;
+}
+
+/* HEADER TABEL */
+th {
+    background-color: #28784f;
+    color: white;
+    padding: 12px;
+    border: 1px solid #b8c9bd;
+    font-size: 14px;
+}
+
+/* ISI TABEL */
+td {
+    padding: 10px;
+    border: 1px solid #b8c9bd;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* HALAMAN DATA ANGGOTA */
+.data-anggota {
+    width: 95%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #b8d5c2;
+    border-radius: 10px;
+}
+
+/* JUDUL DATA ANGGOTA */
+.data-anggota h1 {
+    color: #245c42;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* INFORMASI JUMLAH DATA */
+.jumlah-data {
+    color: #28784f;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* TABEL DATA */
+.data-anggota table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+/* HEADER DAN ISI TABEL */
+.data-anggota th {
+    background-color: #28784f;
+    color: white;
+    padding: 12px;
+    border: 1px solid #b8c9bd;
+}
+
+.data-anggota td {
+    padding: 12px;
+    border: 1px solid #b8c9bd;
+    text-align: center;
+}
+
+/* WARNA BARIS TABEL */
+.data-anggota tr:nth-child(even) {
+    background-color: #f0f7f2;
+}

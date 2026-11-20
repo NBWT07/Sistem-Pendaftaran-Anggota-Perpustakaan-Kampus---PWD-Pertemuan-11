@@ -15,6 +15,7 @@ if (isset($_GET['status']) && $_GET['status'] == "sukses") {
 <head>
     <meta charset="UTF-8">
     <title>Form Pendaftaran Anggota</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 

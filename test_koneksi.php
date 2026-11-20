@@ -1,4 +1,8 @@
 <?php
+// NIM : 2500302054
+// Nama : Naufal Basyirul Wafir Thoriq
+// Pertemuan 10
+
 require_once __DIR__ . "/koneksi.php";
 ?>
 

@@ -1,4 +1,8 @@
 <?php
+// NIM : 2500302054
+// Nama : Naufal Basyirul Wafir Thoriq
+// Pertemuan 11
+
 require_once __DIR__ . "/koneksi.php";
 
 if (!isset($koneksi)) {
@@ -23,6 +27,7 @@ $jumlah_data = mysqli_num_rows($result);
 </head>
 <body>
     <h1>Data Anggota Perpustakaan</h1>
+    <link rel="stylesheet" href="style.css">
 
     <p>Jumlah Data: <?php echo $jumlah_data; ?></p>
 
