@@ -1,0 +1,41 @@
+# Sistem Pendaftaran Anggota Perpustakaan Kampus
+
+Project ini merupakan tugas praktikum Pemrograman Web Dasar (PWD) Pertemuan 11.
+
+## Teknologi yang Digunakan
+- PHP
+- MySQL
+- HTML
+- CSS
+- Laragon
+- Visual Studio Code
+
+## Cara Menjalankan Project
+
+1. Download project melalui tombol Code → Download ZIP pada GitHub.
+2. Ekstrak folder project ke dalam folder `www` Laragon.
+3. Jalankan Laragon, kemudian aktifkan Apache dan MySQL.
+4. Buka phpMyAdmin melalui browser.
+5. Buat database bernama `db_perpustakaan` atau gunakan database yang sudah tersedia.
+6. Pilih database tersebut, kemudian import file `database.sql`.
+7. Periksa konfigurasi database pada file `koneksi.php` dan sesuaikan host, username, password, serta nama database dengan konfigurasi komputer.
+8. Buka browser dan akses halaman berikut:
+
+`http://localhost/tugas-perpustakaan/form_anggota.php`
+
+## Fitur Project
+- Form pendaftaran anggota perpustakaan.
+- Validasi data anggota.
+- Penyimpanan data ke database MySQL.
+- Menampilkan data anggota.
+- Koneksi database menggunakan MySQLi.
+- Tampilan halaman menggunakan CSS.
+
+## File Project
+- `koneksi.php`: Menghubungkan aplikasi dengan database.
+- `form_anggota.php`: Menampilkan form pendaftaran.
+- `proses_anggota.php`: Memproses dan memvalidasi data pendaftaran.
+- `data_anggota.php`: Menampilkan data anggota.
+- `test_koneksi.php`: Menguji koneksi database.
+- `style.css`: Mengatur tampilan halaman.
+- `database.sql`: Berisi struktur dan data contoh database.
